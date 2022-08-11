@@ -52,7 +52,7 @@ initialize it later
 let words = ['red','green','blue'];
 let foundWord:boolean; 
 
-for (let i=0;i<words.length,i++){
+for (let i=0;i<words.length;i++){
   if(words[i]==='green'){
     foundWord = true;
   }
@@ -71,6 +71,7 @@ for (let i=0;i<numbers.length;i++){
     numberAboveZero = numbers[i];
   }  
 }
+
 
 
 
